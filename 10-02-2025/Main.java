@@ -16,32 +16,13 @@ class Main {
 		System.out.println("1.Suma\n2.Resta\n3.Multiplicacion\n4.Division");
 
 		System.out.println("Ingresa el numero de la operacion que quieres hacer ");
-		int opcion = scanner.nextInt();
+		String opcionStr = scanner.next().toUpperCase();
 
-		Operacion op = null;
+		Operando operacion = Operando.valueOf(opcionStr);
+
+		Operacion op = new Operacion (n1,n2,operacion);
 		ICalculadora calculadora = new CalculadoraImpl();
-		Double resultado = null;
-		
-		switch(opcion) {
-
-			case 1:
-				op = new Operacion(n1, n2, Operando.SUMA);
-			break;
-
-			case 2:
-				op = new Operacion(n1, n2, Operando.RESTA);
-			break;
-
-			case 3:
-				op = new Operacion(n1, n2, Operando.MULT);
-			break;
-				
-			case 4:
-				op = new Operacion(n1, n2, Operando.DIV);
-			break;	
-		}
-
-		resultado = calculadora.calcular(op);
+		Double resultado = resultado = calculadora.calcular(op);
                 System.out.println("Tu resultado es: " + resultado);
 
 	}
