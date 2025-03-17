@@ -2,11 +2,15 @@ package com.example.proyecto262025;
 
 import android.app.Activity;
 import android.content.Context;
+import android.icu.math.BigDecimal;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 public class CalculadoraUI implements ICalculadoraUI{
+
+    CalculadoraOnResult calculadoraresult = null;
+    ICalculadora logica = new Calculadora();
 
     ICalculadoraMemoria memoria = new CalculadoraMemoria();
 
@@ -34,7 +38,10 @@ public class CalculadoraUI implements ICalculadoraUI{
     Button btnPunto;
     Button btnClear;
 
-    public CalculadoraUI(Activity activity){
+    public CalculadoraUI(Activity activity, ICalculadora logica){
+
+        this.logica = logica;
+
         context = activity.getApplicationContext();
         btnCero = activity.findViewById(R.id.cero_button);
         btnUno = activity.findViewById(R.id.uno_button);
@@ -105,8 +112,19 @@ public class CalculadoraUI implements ICalculadoraUI{
             addOperation(Operacion.PORC);
         });
         btnIgual.setOnClickListener(v -> {
+            if(calculadoraresult != null){
+                calculadoraresult.onResult(BigDecimal.TEN,
+                        BigDecimal.TEN,
+                        Operacion.SUMA);
+            }
         });
         btnPunto.setOnClickListener(v -> {
+        });
+
+        setOnResult((x,y,operacion) -> {
+            BigDecimal result = logica.calculate(operacion, x, y);
+
+            txvDisplay.setText();
         });
 
     }
@@ -124,13 +142,18 @@ public class CalculadoraUI implements ICalculadoraUI{
 
     @Override
     public String addNumber(String numero) {
-        txvDisplay.setText(numero);
-        return memoria.concat(numero);
+        String newValue = memoria.concat(numero);
+        txvDisplay.setText(newValue);
+        return newValue;
     }
 
     @Override
     public void addOperation(Operacion operacion) {
         txvDisplay.setText(Operacion.convert(operacion));
         memoria.concat(operacion);
+    }
+
+    public setOnresult (CalculadoraOnResult result){
+
     }
 }

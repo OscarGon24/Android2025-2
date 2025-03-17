@@ -11,4 +11,6 @@ public interface ICalculadoraUI {
     String addNumber(String numero);
 
     void addOperation(Operacion operacion);
+
+    void calculate( CalculadoraUI calculadoraUI );
 }

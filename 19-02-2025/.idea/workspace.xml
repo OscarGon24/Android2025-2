@@ -9,7 +9,34 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fd58a3-2573-4874-a74a-9f63b203c076" name="Changes" comment="" />
+    <list default="true" id="f6fd58a3-2573-4874-a74a-9f63b203c076" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ContactosApp/app/src/main/java/com/example/contactosapp/BundleConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactosApp/app/src/main/java/com/example/contactosapp/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactosApp/app/src/main/java/com/example/contactosapp/ContactAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactosApp/app/src/main/java/com/example/contactosapp/ContactStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactosApp/app/src/main/java/com/example/contactosapp/DetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactosApp/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactosApp/app/src/main/res/layout/item_contact.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyecto262025/app/src/main/java/com/example/proyecto262025/CalculadoraOnResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebServices/app/src/main/java/com/example/webservices/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebServices/app/src/main/java/com/example/webservices/ContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebServices/app/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12-02-2025/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12-02-2025/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12-02-2025/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12-02-2025/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora1902/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora1902/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-02-2025/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../24-02-2025/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividades/OJGL_android_2024_m1_01.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividades/android_2025_m1_02.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividades/codigofuentem1-02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto262025/app/src/main/java/com/example/proyecto262025/CalculadoraMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto262025/app/src/main/java/com/example/proyecto262025/CalculadoraMemoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto262025/app/src/main/java/com/example/proyecto262025/CalculadoraUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto262025/app/src/main/java/com/example/proyecto262025/CalculadoraUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto262025/app/src/main/java/com/example/proyecto262025/ICalculadoraMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto262025/app/src/main/java/com/example/proyecto262025/ICalculadoraMemoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto262025/app/src/main/java/com/example/proyecto262025/ICalculadoraUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto262025/app/src/main/java/com/example/proyecto262025/ICalculadoraUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto262025/app/src/main/java/com/example/proyecto262025/MainActivity3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto262025/app/src/main/java/com/example/proyecto262025/MainActivity3.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +45,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=aua69t8tqg59fakj)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -27,21 +54,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "OscarGon24"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OscarGon24&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/OscarGon24/Android2025-2.git",
-    "accountId": "87d87bcf-7a94-4ce9-90f0-bfe6dd0cfc56"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/OscarGon24/Android2025-2.git&quot;,
+    &quot;accountId&quot;: &quot;87d87bcf-7a94-4ce9-90f0-bfe6dd0cfc56&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2tHLJIlj4VY6CGFBcFItM0I8nlI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,7 +83,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Aplicaciones/Android2025-02/Android2025-2/19-02-2025"
+    "last_opened_file_path": "C:/Android2025-2/Android2025-2/19-02-2025"
   }
 }]]></component>
   <component name="RunManager">
@@ -127,9 +154,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

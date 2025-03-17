@@ -1,0 +1,33 @@
+package com.example.m1_03;
+
+import android.os.Bundle;
+import android.util.Log;
+
+import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+
+        int[] numeros = new int [1000000];
+        Random random = new Random();
+
+        for (int i = 0; i < numeros.length; i++){
+            numeros[i] = random.nextInt(1000000);
+        }
+
+        Arrays.sort(numeros);
+
+        Log.d("MainActivity", "Numero: " + Arrays.toString(Arrays.copyOf(numeros, 1000000)));
+    }
+}
