@@ -3,20 +3,13 @@ package com.example.webservices;
 public class Contact {
 
     String name;
-
     String phone;
+    String imagenUrl;
 
-    public Contact(String name, String phone) {
+    public Contact(String name, String phone, String imagenUrl) {
         this.name = name;
         this.phone = phone;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
+        this.imagenUrl = imagenUrl;
     }
 
     public String getName() {
@@ -27,5 +20,19 @@ public class Contact {
         this.name = name;
     }
 
+    public String getPhone() {
+        return phone;
+    }
 
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getImagenUrl() {
+        return imagenUrl;
+    }
+
+    public void setImagenUrl(String imagenUrl) {
+        this.imagenUrl = imagenUrl;
+    }
 }
